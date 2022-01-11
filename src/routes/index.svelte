@@ -1,6 +1,6 @@
 <div class="container">
   <div class="content">
-    <h1>Tokyo 2021 Highlights: Loading Eager</h1>
+    <h1>Tokyo 2020 Highlights: Loading Eager</h1>
 
     <h2>Day One</h2>
     <div class="video-container">

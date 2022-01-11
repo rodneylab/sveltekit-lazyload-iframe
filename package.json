@@ -2,31 +2,31 @@
   "name": "sveltekit-lazyload-iframe",
   "version": "0.0.1",
   "scripts": {
-    "dev": "svelte-kit dev -p 3030",
+    "dev": "svelte-kit dev -p 3000",
     "build": "svelte-kit build",
-    "preview": "svelte-kit preview -p 3030",
+    "preview": "svelte-kit preview -p 3000",
     "lint": "prettier --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
     "lint:scss": "stylelint 'src/**/*.{css,scss,svelte}'",
     "format": "prettier --write --plugin-search-dir=. ."
   },
   "devDependencies": {
-    "@fontsource/source-sans-pro": "^4.5.0",
+    "@fontsource/source-sans-pro": "^4.5.1",
     "@sveltejs/kit": "next",
-    "eslint": "^7.22.0",
-    "eslint-config-prettier": "^8.1.0",
-    "eslint-plugin-svelte3": "^3.2.0",
-    "husky": "^7.0.1",
+    "eslint": "^8.6.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-svelte3": "^3.3.0",
+    "husky": "^7.0.4",
+    "postcss": "^8.4.5",
     "prettier": "~2.2.1",
-    "prettier-plugin-svelte": "^2.2.0",
-    "sass": "^1.36.0",
-    "stylelint": "^13.13.1",
-    "stylelint-a11y": "^1.2.3",
-    "stylelint-config-recommended-scss": "^4.3.0",
-    "stylelint-config-standard": "^22.0.0",
-    "stylelint-scss": "^3.20.1",
-    "svelte": "^3.34.0",
-    "svelte-preprocess": "^4.7.4",
-    "vanilla-lazyload": "^17.4.0"
+    "prettier-plugin-svelte": "^2.5.1",
+    "sass": "^1.47.0",
+    "stylelint": "^14.2.0",
+    "stylelint-config-recommended-scss": "^5.0.2",
+    "stylelint-config-standard": "^24.0.0",
+    "stylelint-scss": "^4.1.0",
+    "svelte": "^3.45.0",
+    "svelte-preprocess": "^4.10.1",
+    "vanilla-lazyload": "^17.5.0"
   },
   "repository": {
     "type": "git",
@@ -34,12 +34,6 @@
   },
   "bugs": {
     "url": "https://github.com/rodneylab/sveltekit-lazyload-iframe/issues"
-  },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "pre-commit": "pnpm run prettier:check && pnpm run lint:scss"
-    }
   },
   "type": "module"
 }
