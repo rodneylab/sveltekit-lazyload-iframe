@@ -4,9 +4,9 @@
   "license": "BSD-3-Clause",
   "description": "Lazy loading iframes in SvelteKit: we see how Core Web Vitals from Google make optimising your Svelte site important to rank.",
   "scripts": {
-    "dev": "vite dev --port 3000",
+    "dev": "vite dev",
     "build": "vite build",
-    "preview": "vite preview --port 3000",
+    "preview": "vite preview",
     "lint": "prettier --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
     "lint:scss": "stylelint 'src/**/*.{css,scss,svelte}'",
     "format": "prettier --write --plugin-search-dir=. ."
@@ -23,13 +23,13 @@
     "prettier-plugin-svelte": "^2.7.0",
     "sass": "^1.52.0",
     "stylelint": "^14.8.2",
-    "stylelint-config-recommended-scss": "^6.0.0",
-    "stylelint-config-standard": "^26.0.0",
+    "stylelint-config-recommended-scss": "^7.0.0",
+    "stylelint-config-standard": "^28.0.0",
     "stylelint-scss": "^4.2.0",
     "svelte": "^3.48.0",
     "svelte-preprocess": "^4.10.6",
     "vanilla-lazyload": "^17.8.1",
-    "vite": "^2.9.13"
+    "vite": "^3.0.9"
   },
   "repository": {
     "type": "git",
@@ -40,6 +40,6 @@
   },
   "type": "module",
   "peerDependencies": {
-    "vite": "^2.9.13"
+    "vite": "^2.9.15"
   }
 }
