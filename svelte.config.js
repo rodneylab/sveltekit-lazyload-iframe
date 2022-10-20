@@ -8,8 +8,7 @@ const config = {
         prependData: "@import 'src/lib/styles/variables.scss';"
       }
     })
-  ],
-  kit: {}
+  ]
 };
 
 export default config;
