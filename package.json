@@ -1,50 +1,50 @@
 {
-  "name": "sveltekit-lazyload-iframe",
-  "version": "0.0.1",
-  "license": "BSD-3-Clause",
-  "description": "Lazy loading iframes in SvelteKit: we see how Core Web Vitals from Google make optimising your Svelte site important to rank.",
-  "scripts": {
-    "dev": "vite dev",
-    "build": "vite build",
-    "preview": "vite preview",
-    "check": "svelte-check --fail-on-hints",
-    "lint": "prettier --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
-    "lint:scss": "stylelint 'src/**/*.{css,scss,svelte}'",
-    "format": "prettier --write --plugin-search-dir=. .",
-    "prettier:check": "prettier --check --plugin-search-dir=. ."
-  },
-  "devDependencies": {
-    "@commitlint/config-conventional": "^17.1.0",
-    "@fontsource/source-sans-pro": "^4.5.11",
-    "@sveltejs/kit": "next",
-    "commitlint": "^17.1.2",
-    "eslint": "^8.25.0",
-    "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-svelte3": "^4.0.0",
-    "husky": "^8.0.1",
-    "postcss": "^8.4.18",
-    "postcss-html": "^1.5.0",
-    "prettier": "~2.7.1",
-    "prettier-plugin-svelte": "^2.8.0",
-    "sass": "^1.55.0",
-    "stylelint": "^14.14.0",
-    "stylelint-config-recommended-scss": "^7.0.0",
-    "stylelint-config-standard": "^29.0.0",
-    "stylelint-scss": "^4.3.0",
-    "svelte": "^3.52.0",
-    "svelte-preprocess": "^4.10.7",
-    "vanilla-lazyload": "^17.8.3",
-    "vite": "^3.1.8"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/rodneylab/sveltekit-lazyload-iframe"
-  },
-  "bugs": {
-    "url": "https://github.com/rodneylab/sveltekit-lazyload-iframe/issues"
-  },
-  "type": "module",
-  "peerDependencies": {
-    "vite": "^3.1.8"
-  }
+	"name": "sveltekit-lazyload-iframe",
+	"version": "0.0.1",
+	"license": "BSD-3-Clause",
+	"description": "Lazy loading iframes in SvelteKit: we see how Core Web Vitals from Google make optimising your Svelte site important to rank.",
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"check": "svelte-check --fail-on-hints",
+		"lint": "prettier --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
+		"lint:scss": "stylelint 'src/**/*.{css,scss,svelte}'",
+		"format": "prettier --write --plugin-search-dir=. .",
+		"prettier:check": "prettier --check --plugin-search-dir=. ."
+	},
+	"devDependencies": {
+		"@commitlint/config-conventional": "^17.1.0",
+		"@fontsource/source-sans-pro": "^4.5.11",
+		"@sveltejs/kit": "next",
+		"commitlint": "^17.1.2",
+		"eslint": "^8.25.0",
+		"eslint-config-prettier": "^8.5.0",
+		"eslint-plugin-svelte3": "^4.0.0",
+		"husky": "^8.0.1",
+		"postcss": "^8.4.18",
+		"postcss-html": "^1.5.0",
+		"prettier": "~2.7.1",
+		"prettier-plugin-svelte": "^2.8.0",
+		"sass": "^1.55.0",
+		"stylelint": "^14.14.0",
+		"stylelint-config-recommended-scss": "^7.0.0",
+		"stylelint-config-standard": "^29.0.0",
+		"stylelint-scss": "^4.3.0",
+		"svelte": "^3.52.0",
+		"svelte-preprocess": "^4.10.7",
+		"vanilla-lazyload": "^17.8.3",
+		"vite": "^3.1.8"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/rodneylab/sveltekit-lazyload-iframe"
+	},
+	"bugs": {
+		"url": "https://github.com/rodneylab/sveltekit-lazyload-iframe/issues"
+	},
+	"type": "module",
+	"peerDependencies": {
+		"vite": "^3.1.8"
+	}
 }
