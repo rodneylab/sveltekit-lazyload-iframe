@@ -2,9 +2,8 @@
 	import { browser } from '$app/environment';
 	import lazyload from 'vanilla-lazyload';
 
-	let lazyloadInstance;
-	if (browser) {
-		lazyloadInstance = new lazyload();
+	if (browser && !document.lazyloadInstance) {
+		document.lazyloadInstance = new lazyload();
 	}
 </script>
 
