@@ -1,5 +1,5 @@
 <script>
-  import { browser } from '$app/env';
+  import { browser } from '$app/environment';
   import lazyload from 'vanilla-lazyload';
 
   let lazyloadInstance;
@@ -71,7 +71,7 @@
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
       />
-  </div>
+    </div>
 
     <h2>Day Five</h2>
     <div class="video-container">
