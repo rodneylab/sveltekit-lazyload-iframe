@@ -2,6 +2,13 @@ import { sveltekit } from '@sveltejs/kit/vite';
 
 /** @type {import('vite').UserConfig} */
 const config = {
+	css: {
+		preprocessorOptions: {
+			scss: {
+				additionalData: "@import 'src/lib/styles/variables.scss';"
+			}
+		}
+	},
 	plugins: [sveltekit()],
 	server: {
 		port: 5173,

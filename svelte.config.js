@@ -1,14 +1,8 @@
 /** @type {import('@sveltejs/kit').Config} */
-import preprocess from 'svelte-preprocess';
+import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 
 const config = {
-	preprocess: [
-		preprocess({
-			scss: {
-				prependData: "@import 'src/lib/styles/variables.scss';"
-			}
-		})
-	]
+	preprocess: [vitePreprocess({})]
 };
 
 export default config;
