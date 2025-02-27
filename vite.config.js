@@ -5,19 +5,20 @@ const config = {
 	css: {
 		preprocessorOptions: {
 			scss: {
-				additionalData: "@import 'src/lib/styles/variables.scss';"
-			}
-		}
+				additionalData: "@use 'variables.scss';",
+				loadPaths: ['src/lib/styles'],
+			},
+		},
 	},
 	plugins: [sveltekit()],
 	server: {
 		port: 5173,
-		strictPort: false
+		strictPort: false,
 	},
 	preview: {
 		port: 4173,
-		strictPort: false
-	}
+		strictPort: false,
+	},
 };
 
 export default config;

@@ -14,7 +14,7 @@
 				frameborder="0"
 				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 				allowfullscreen
-			/>
+			></iframe>
 		</div>
 
 		<h2>Day Two</h2>
@@ -29,7 +29,7 @@
 				frameborder="0"
 				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 				allowfullscreen
-			/>
+			></iframe>
 		</div>
 
 		<h2>Day Three</h2>
@@ -44,7 +44,7 @@
 				frameborder="0"
 				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 				allowfullscreen
-			/>
+			></iframe>
 		</div>
 
 		<h2>Day Four</h2>
@@ -59,7 +59,7 @@
 				frameborder="0"
 				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 				allowfullscreen
-			/>
+			></iframe>
 		</div>
 
 		<h2>Day Five</h2>
@@ -74,7 +74,7 @@
 				frameborder="0"
 				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 				allowfullscreen
-			/>
+			></iframe>
 		</div>
 	</div>
 </div>
@@ -86,12 +86,12 @@
 		background-color: rgb(187, 25, 25);
 		color: #fff;
 		margin: 0;
-		padding: $spacing-4 0 $spacing-12;
+		padding: variables.$spacing-4 0 variables.$spacing-12;
 	}
 	.content {
 		display: flex;
 		flex-direction: column;
-		max-width: $max-width-container-md;
+		max-width: variables.$max-width-container-md;
 		width: 100%;
 		margin: 0 auto;
 
@@ -103,7 +103,7 @@
 		position: relative;
 		overflow: hidden;
 		width: 100%;
-		margin: $spacing-4 auto;
+		margin: variables.$spacing-4 auto;
 		padding-top: 56.25%; /* 16:9 aspect ratio */
 	}
 
@@ -114,9 +114,9 @@
 		height: 100%;
 	}
 
-	@media (max-width: $max-width-container-md) {
+	@media (max-width: variables.$max-width-container-md) {
 		.container {
-			padding: 0 $spacing-4;
+			padding: 0 variables.$spacing-4;
 		}
 	}
 </style>
